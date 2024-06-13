@@ -7,7 +7,7 @@ excerpt: hello world
 category: projects
 image: /images/server-dashboard3.png
 tags:
-  - Sveltekit
+  - Svelte
   - TypeScript
   - TailwindCSS
   - Python
@@ -19,6 +19,7 @@ tags:
   - Vercel
   - Web
   - IOT
+  - Linode
 projectURL: "https://friday-dashboard-pi.vercel.app"
 repoURL: "https://github.com/engageintellect/server-dashboard"
 ---

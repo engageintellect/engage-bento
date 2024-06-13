@@ -7,7 +7,7 @@ excerpt: Using SvelteKit to build a landing page with user-selected themes with 
 category: projects
 image: "https://kit.svelte.dev/images/twitter-thumbnail.jpg"
 tags:
-  - SvelteKit
+  - Svelte
   - TailwindCSS
   - DaisyUI
   - Vercel

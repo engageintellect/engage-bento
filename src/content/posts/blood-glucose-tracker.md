@@ -7,7 +7,7 @@ excerpt: hello world
 category: projects
 image: /images/engage-glucose3.png
 tags:
-  - Sveltekit
+  - Svelte
   - TypeScript
   - TailwindCSS
   - LibreView

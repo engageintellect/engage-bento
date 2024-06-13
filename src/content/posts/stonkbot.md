@@ -7,7 +7,7 @@ excerpt: hello world
 category: projects
 image: /images/stonkbot-ui.png
 tags:
-  - Sveltekit
+  - Svelte
   - TypeScript
   - TailwindCSS
   - Python

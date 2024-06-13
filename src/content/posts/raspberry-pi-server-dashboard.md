@@ -7,7 +7,7 @@ excerpt: hello world
 category: projects
 image: /images/pi-dashboard.png
 tags:
-  - Sveltekit
+  - Svelte
   - TailwindCSS
   - Python
   - FastAPI
@@ -18,6 +18,7 @@ tags:
   - Ubuntu
   - Web
   - IOT
+  - Linode
 
 projectURL: "https://pi.engage-dev.com"
 repoURL: "https://github.com/engageintellect/pi-dashboard-docker"

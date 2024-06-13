@@ -7,7 +7,7 @@ excerpt: hello world
 category: projects
 image: /images/hckrnws2.png
 tags:
-  - Sveltekit
+  - Svelte
   - TailwindCSS
   - DaisyUI
   - Hacker News

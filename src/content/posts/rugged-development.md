@@ -16,6 +16,9 @@ tags:
   - Web
   - Marketing
   - Vercel
+  - MySQL
+  - Zod
+
 projectURL: "https://rugged-development.vercel.app"
 repoURL: "https://github.com/engageintellect/rugged-homepage"
 ---

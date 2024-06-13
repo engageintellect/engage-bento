@@ -7,7 +7,7 @@ excerpt: hello world
 category: projects
 image: /images/spatz.png
 tags:
-  - Sveltekit
+  - Svelte
   - Pocketbase
   - AI
   - TailwindCSS

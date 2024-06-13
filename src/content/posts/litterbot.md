@@ -7,7 +7,7 @@ excerpt: hello world
 category: projects
 image: /images/litterbot.png
 tags:
-  - Sveltekit
+  - Svelte
   - TailwindCSS
   - Python
   - Vercel AI SDK

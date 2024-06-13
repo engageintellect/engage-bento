@@ -7,7 +7,7 @@ excerpt: An open wiki platform built with Sveltekit, Pocketbase, Zod, TinyMCE, T
 category: projects
 image: /images/svelteflix.png
 tags:
-  - Sveltekit
+  - Svelte
   - TailwindCSS
   - API
   - Supabase
@@ -26,7 +26,7 @@ Svelteflix is a Netflix UI that allows the user to discover movies, watch trailo
 
 ## Technologies Used
 
-- Sveltekit
+- Svelte
 - TailwindCSS
 - API
 - Supabase

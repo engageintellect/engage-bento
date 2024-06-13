@@ -7,7 +7,7 @@ excerpt: An open wiki platform built with Sveltekit, Pocketbase, Zod, TinyMCE, T
 category: projects
 image: /images/wiki-platform.png
 tags:
-  - Sveltekit
+  - Svelte
   - TypeScript
   - Pocketbase
   - AI
@@ -19,6 +19,7 @@ tags:
   - Web
   - API
   - Vercel
+  - MySQL
 projectURL: "https://project-nexum.vercel.app"
 repoURL: "https://github.com/engageintellect/project-nexum"
 ---

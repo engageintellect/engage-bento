@@ -7,7 +7,7 @@ excerpt: A simple crypto dashbord built with Sveltekit, CoinGecko API, Blockchai
 category: projects
 image: "https://akm-img-a-in.tosshub.com/businesstoday/images/story/202309/pandasecurity-crypto-gaming-sixteen_nine.jpg?size=948:533"
 tags:
-  - Sveltekit
+  - Svelte
   - Crypto
   - Bitcoin
   - TailwindCSS

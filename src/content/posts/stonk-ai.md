@@ -7,7 +7,7 @@ excerpt: hello world
 category: projects
 image: /images/stonkAi5.png
 tags:
-  - Sveltekit
+  - Svelte
   - TypeScript
   - TailwindCSS
   - Python
