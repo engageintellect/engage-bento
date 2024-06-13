@@ -10,6 +10,7 @@ tags:
   - Astro
   - SSG
   - Vercel
+  - Web
 ---
 
 # Introduction

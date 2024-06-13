@@ -22,6 +22,8 @@ tags:
   - Ubuntu
   - Nginx
   - Vercel
+  - Web
+  - Finance
 projectURL: "https://stonkai.xyz"
 repoURL: "https://github.com/engageintellect/ai-stock-client.git"
 ---

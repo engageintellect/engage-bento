@@ -15,6 +15,8 @@ tags:
   - Ubuntu
   - Robotics
   - API
+  - Web
+  - IOT
 projectURL: "https://litterbot.vercel.app"
 repoURL: "https://github.com/engageintellect/litterbot"
 ---

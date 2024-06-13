@@ -13,6 +13,7 @@ tags:
   - Server
   - Linux
   - Nginx
+  - Web
 ---
 
 # Introduction

@@ -10,11 +10,13 @@ tags:
   - Next.js
   - Typescript
   - Node.js
+  - AI
   - OpenAI
   - ChatGPT
   - TailwindCSS
   - API
   - Vercel
+  - Web
 
 projectURL: "https://twitter-bio-tau.vercel.app"
 repoURL: "https://github.com/engageintellect/twitter-bio"

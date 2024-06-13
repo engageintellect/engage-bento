@@ -17,6 +17,8 @@ tags:
   - Ubuntu
   - Nginx
   - Vercel
+  - Web
+  - IOT
 projectURL: "https://friday-dashboard-pi.vercel.app"
 repoURL: "https://github.com/engageintellect/server-dashboard"
 ---

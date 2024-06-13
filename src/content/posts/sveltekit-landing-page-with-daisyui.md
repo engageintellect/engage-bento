@@ -11,6 +11,7 @@ tags:
   - TailwindCSS
   - DaisyUI
   - Vercel
+  - Web
 projectURL: "https://sveltekit-landing-daisy.vercel.app"
 repoURL: "https://github.com/engageintellect/sveltekit-landing-daisy.git"
 ---

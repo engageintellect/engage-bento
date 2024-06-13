@@ -16,6 +16,8 @@ tags:
   - Pocketbase
   - Linux
   - Ubuntu
+  - Web
+  - IOT
 
 projectURL: "https://pi.engage-dev.com"
 repoURL: "https://github.com/engageintellect/pi-dashboard-docker"

@@ -13,6 +13,7 @@ tags:
   - Hacker News
   - API
   - Vercel
+  - Web
 
 projectURL: "https://hckrnws.vercel.app"
 repoURL: "https://github.com/engageintellect/hckrnws"

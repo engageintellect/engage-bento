@@ -13,6 +13,9 @@ tags:
   - FramerMotion
   - HubSpot
   - SQLite
+  - Web
+  - Marketing
+  - Vercel
 projectURL: "https://rugged-development.vercel.app"
 repoURL: "https://github.com/engageintellect/rugged-homepage"
 ---

@@ -20,6 +20,7 @@ tags:
   - Ubuntu
   - Nginx
   - Vercel
+  - Web
 projectURL: "https://stonkai-chat.vercel.app"
 repoURL: "https://github.com/engageintellect/svelte-ai-injection.git"
 ---

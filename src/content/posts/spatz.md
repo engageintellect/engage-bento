@@ -16,6 +16,8 @@ tags:
   - Vercel AI SDK
   - Linux
   - Ubuntu
+  - Vercel
+  - Web
 projectURL: "https://spatz.engage-dev.com"
 repoURL: "https://github.com/engageintellect/spatz"
 ---

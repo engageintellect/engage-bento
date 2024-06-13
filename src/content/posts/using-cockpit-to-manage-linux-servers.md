@@ -13,6 +13,7 @@ tags:
   - Server
   - Logging
   - Monitoring
+  - IOT
 ---
 
 ## Managing Raspberry Pis and Other Linux Servers with Cockpit

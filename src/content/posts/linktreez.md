@@ -11,6 +11,7 @@ tags:
   - React.js
   - TailwindCSS
   - Vercel
+  - Web
 projectURL: "https://linktreez.vercel.app"
 repoURL: "https://github.com/engageintellect/linktreez"
 ---

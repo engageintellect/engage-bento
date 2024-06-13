@@ -9,6 +9,7 @@ tags:
   - Linux
   - Software Development
   - Environment Variables
+  - Web
 ---
 
 # Using Direnv in Linux for Software Development

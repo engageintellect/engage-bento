@@ -10,7 +10,9 @@ tags:
   - SvelteKit
   - Pocketbase
   - Database
+  - Ubuntu
   - Nginx
+  - Web
 ---
 
 # Introduction

@@ -11,6 +11,7 @@ tags:
   - Next.js
   - CSS
   - Frontend
+  - Web
 ---
 
 # Introduction

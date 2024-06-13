@@ -19,6 +19,9 @@ tags:
   - Linux
   - Ubuntu
   - Vercel
+  - Crypto
+  - Bitcoin
+  - Web
 projectURL: "https://wally-btc.vercel.app"
 repoURL: "https://github.com/engageintellect/wally.git"
 ---

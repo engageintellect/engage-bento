@@ -12,6 +12,8 @@ tags:
   - TypeScript
   - API
   - Vercel
+  - Commerce
+  - Web
 
 projectURL: "https://www.janakindaesthetics.com"
 repoURL: "https://github.com/engageintellect/kindaesthetics"

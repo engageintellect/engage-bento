@@ -14,6 +14,8 @@ tags:
   - Postgres
   - Zod
   - Vercel
+  - Media
+  - Web
 projectURL: "https://engage-svelteflix.vercel.app"
 repoURL: "https://github.com/engageintellect/engage-sveltekit.git"
 ---

@@ -10,6 +10,9 @@ tags:
   - Python
   - FastAPI
   - API
+  - Ubuntu
+  - Nginx
+  - Web
 ---
 
 # Introduction

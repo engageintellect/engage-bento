@@ -17,6 +17,8 @@ tags:
   - Nginx
   - Linux
   - Ubuntu
+  - Web
+  - Commerce
 
 projectURL: "https://shopgme.com"
 repoURL: "https://github.com/engageintellect/greymatter-store"

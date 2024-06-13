@@ -10,11 +10,15 @@ tags:
   - Sveltekit
   - TypeScript
   - Pocketbase
+  - AI
   - Sqlite
   - TailwindCSS
   - DaisyUI
   - TinyMCE
   - Zod
+  - Web
+  - API
+  - Vercel
 projectURL: "https://project-nexum.vercel.app"
 repoURL: "https://github.com/engageintellect/project-nexum"
 ---

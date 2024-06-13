@@ -20,6 +20,7 @@ tags:
   - Ubuntu
   - Nginx
   - Vercel
+  - Web
 
 projectURL: "https://resonantlogic-gsa-search.vercel.app"
 repoURL: "https://github.com/engageintellect/gsa-rag-frontend/tree/main"

@@ -10,6 +10,7 @@ tags:
   - SolidJS
   - TypeScript
   - Vercel
+  - Web
 ---
 
 # Introduction:

@@ -11,6 +11,7 @@ tags:
   - React
   - Svelte
   - TailwindCSS
+  - Web
 ---
 
 # Introduction

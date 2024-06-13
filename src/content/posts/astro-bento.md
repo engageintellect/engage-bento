@@ -13,6 +13,7 @@ tags:
   - Markdown
   - API
   - Vercel
+  - Web
 
 projectURL: "https://bento.engage-dev.com"
 repoURL: "https://github.com/engageintellect/astro-bento"
