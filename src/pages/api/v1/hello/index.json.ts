@@ -1,4 +1,7 @@
 // Outputs: /builtwith.json
+
+
+
 export async function GET({params, request}: {params: any, request: any}) {
   return new Response(
     JSON.stringify({
@@ -11,7 +14,7 @@ export async function GET({params, request}: {params: any, request: any}) {
         '/api/v1/fetchNowFeed.json',
         '/api/v1/fetchProjectsFeed.json',
       ],
-      status: 200
+      status: 200,
     })
   )
 }
