@@ -21,6 +21,12 @@
 - [D3](https://d3js.org/)
 - [Tailwind](https://tailwindcss.com/)
 
+## API Endpoints
+
+- `GET /api/v1/hello.json`
+- `GET /api/v1/fetchNowFeed.json`
+- `GET /api/v1/fetchProjectsFeed.json`
+
 ## Getting Started
 
 ```bash
