@@ -30,7 +30,7 @@ const { frontmatter } = Astro.props;
 >
   <Navbar />
 
-  <main class="mx-auto max-w-xl w-full p-2 md:py-5 text-neutral-100">
+  <main class="mx-auto max-w-2xl w-full p-2 md:py-5 text-neutral-100">
     <!-- <hr class="border-[.5px] border-gray-100/10 mb-5" /> -->
 
     <div
@@ -57,9 +57,7 @@ const { frontmatter } = Astro.props;
       </div>
 
       <div class="">
-        <div class="mt-5 pb-1 text-neutral-100/50 f-light text-sm">
-          Technologies:
-        </div>
+        <div class="mt-5 pb-1 text-neutral-100/50 f-light text-sm">Tags:</div>
 
         <div class="flex gap-1 w-full overflow-scroll mb-2">
           {
@@ -84,7 +82,7 @@ const { frontmatter } = Astro.props;
       </a>
     </div>
 
-    <div class="flex items-center gap-2 w-full bg-darkslate-700 py-2">
+    <div class="flex items-center gap-2 w-full py-2">
       {
         frontmatter.projectURL && (
           <a href={frontmatter.projectURL} class="w-full group">
@@ -117,7 +115,9 @@ const { frontmatter } = Astro.props;
       }
     </div>
 
-    <article class="prose prose-p:text-purple-500 prose-slate prose-invert">
+    <article
+      class="prose prose-p:text-purple-500 prose-slate prose-invert mb-10"
+    >
       <slot />
     </article>
   </main>

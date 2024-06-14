@@ -73,5 +73,8 @@ export default defineConfig({
             ::-ms-scrollbar { display: none; }`
     }]
   ],
+  shortcuts: {
+    "bg-primary-500": "bg-[var(--color-primary-500)]",
+    "text-primary-500": "text-[var(--color-primary-500)]",
+  },
 });
- 
