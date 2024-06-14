@@ -1,7 +1,7 @@
 {
-  "name": "astro-bento-portfolio",
+  "name": "engage-bento",
   "type": "module",
-  "version": "0.0.2",
+  "version": "1.5.0",
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",

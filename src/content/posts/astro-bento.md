@@ -14,6 +14,7 @@ tags:
   - API
   - Vercel
   - Web
+  - API
 
 projectURL: "https://bento.engage-dev.com"
 repoURL: "https://github.com/engageintellect/astro-bento"
