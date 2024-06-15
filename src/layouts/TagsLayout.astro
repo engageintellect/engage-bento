@@ -1,6 +1,5 @@
 ---
 import BasicLayout from "./BasicLayout.astro";
-import { ViewTransitions } from "astro:transitions";
 
 interface Props {
   title: string;
@@ -9,8 +8,6 @@ interface Props {
 
 const { title, description } = Astro.props;
 ---
-
-<ViewTransitions />
 
 <BasicLayout title={title} description={description}>
   <div slot="" class=""></div>
