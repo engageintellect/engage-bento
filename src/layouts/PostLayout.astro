@@ -4,6 +4,7 @@ import type { MarkdownLayoutProps } from "astro";
 import BasicLayout from "./BasicLayout.astro";
 import { Icon } from "astro-icon/components";
 import Navbar from "../components/Navbar.astro";
+import { ViewTransitions } from "astro:transitions";
 
 type Props = MarkdownLayoutProps<{
   title: string;
@@ -21,6 +22,7 @@ const { slug } = Astro.params;
 const { frontmatter } = Astro.props;
 ---
 
+<ViewTransitions />
 <BasicLayout
   frontmatter={frontmatter}
   slug={slug}
