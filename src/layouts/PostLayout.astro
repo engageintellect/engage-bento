@@ -57,7 +57,13 @@ const { frontmatter } = Astro.props;
       </div>
 
       <div class="">
-        <div class="mt-5 pb-1 text-neutral-100/50 f-light text-sm">Tags:</div>
+        <div class="mt-5 pb-1 text-neutral-100/50 f-light text-sm">
+          <a
+            href="/tags"
+            class="text-neutral-100/50 f-light decoration-none hover:decoration-none"
+            >Tags:</a
+          >
+        </div>
 
         <div class="flex gap-1 w-full overflow-scroll mb-2">
           {

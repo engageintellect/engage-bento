@@ -74,7 +74,9 @@ const { title, description, date, url, category, tags, image } = Astro.props;
         </div>
 
         <div>
-          <div class="text-neutral-100 mb-2">Tags:</div>
+          <div class="text-neutral-100 mb-2">
+            <a href="/tags">Tags:</a>
+          </div>
           <div class="flex gap-1 overflow-scroll">
             {
               tags.map((tag) => (
