@@ -30,7 +30,7 @@ import { Icon } from "astro-icon/components";
       <div class="flex items-center gap-2">
         <a
           href="javascript:window.location.href='/'"
-          class="group py-2 flex items-center justify-center px-4 border border-gray-500 rounded text-neutral-100"
+          class="group py-2 items-center justify-center px-4 border border-gray-500 rounded text-neutral-100"
         >
           <Icon
             name="mdi:home"
@@ -40,22 +40,24 @@ import { Icon } from "astro-icon/components";
 
         <a
           href="/now"
-          class="group py-2 flex items-center justify-center px-4 border border-gray-500 rounded text-neutral-100"
+          class="group py-2 flex items-center justify-center px-4 border border-gray-500 rounded text-neutral-100 decoration-none hover:decoration-none"
         >
-          <Icon
+          now
+          <!-- <Icon
             name="carbon:blog"
             class="w-5 h-5 inline-block md:group-hover:scale-110 transition-all duration-100"
-          />
+          /> -->
         </a>
 
         <a
           href="/projects"
-          class="group py-2 flex items-center justify-center px-4 border border-gray-500 rounded text-neutral-100"
+          class="group py-2 flex items-center justify-center px-4 border border-gray-500 rounded text-neutral-100 decoration-none hover:decoration-none"
         >
-          <Icon
+          projects
+          <!-- <Icon
             name="material-symbols:code"
             class="w-5 h-5 inline-block md:group-hover:scale-110 transition-all duration-100"
-          />
+          /> -->
         </a>
       </div>
 
