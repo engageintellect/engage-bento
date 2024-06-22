@@ -14,6 +14,7 @@ tags:
   - API
   - Crypto
   - Vercel
+  - Raspberry Pi
   - Web
 
 projectURL: "https://mine.engage-dev.com"
