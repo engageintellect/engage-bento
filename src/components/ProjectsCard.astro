@@ -1,7 +1,7 @@
 ---
 import Card from "./Card/index.astro";
-import Pulse from "./Pulse.astro";
 import { getCollection } from "astro:content";
+import { formatTimeForLosAngeles } from "../lib/helpers";
 
 // Fetch and filter posts that are in the 'now' category
 const allPosts = await getCollection("posts");
@@ -24,20 +24,6 @@ const mostRecentProjectPost = nowPosts[0] || null; // This ensures there is a fa
   href="/projects"
 >
   <div class="group">
-    <div class="flex justify-between w-full items-start mb-2">
-      <div class="flex flex-col">
-        <!-- <a href="/now" class="text-white text-xl f-bold">Projects</a> -->
-        <!-- <a href="https://sive.rs/nowff" target="_blank"> -->
-        <!-- <span
-            class="hover:text-purple-500 text-sm text-neutral-100/50 cursor-pointer"
-            >what is this?</span
-          > -->
-        <!-- </a> -->
-      </div>
-      <div class="md:group-hover:scale-150 transition-all duration-300">
-        <!-- <Pulse /> -->
-      </div>
-    </div>
     <div class="line-clamp-4">
       {
         mostRecentProjectPost ? (
@@ -52,8 +38,12 @@ const mostRecentProjectPost = nowPosts[0] || null; // This ensures there is a fa
                 {mostRecentProjectPost.data.title}
               </div>
 
+              {/* <div class="text-xs text-neutral-100/50 md:group-hover/newPost:text-neutral-100">
+                {formatTimeForLosAngeles(mostRecentProjectPost.data.pubDate)}
+              </div> */}
+
               <div class="text-neutral-100/70 md:group-hover/newPost:text-neutral-100">
-                {mostRecentProjectPost.data.description}"
+                {mostRecentProjectPost.data.description}
               </div>
             </div>
           </a>

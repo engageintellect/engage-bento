@@ -1,7 +1,7 @@
 ---
 layout: "../../layouts/PostLayout.astro"
 pubDate: 2024-4-21T12:00:00Z
-title: Spatz.
+title: Spatz
 description: A fullstack Sveltekit template for building FAST.
 excerpt: hello world
 category: projects

@@ -1,7 +1,7 @@
 ---
 layout: "../../layouts/PostLayout.astro"
 pubDate: 2024-6-11T12:00:00Z
-title: Transforming Real Estate Investments with Solana Blockchain
+title: Transforming Real Estate Investments with Solana
 description: How Homebase start-up uses Solana blockchain to revolutionize real estate investments by tokenizing properties.
 category: now
 image: /images/homebase2.png

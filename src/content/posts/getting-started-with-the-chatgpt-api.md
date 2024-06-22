@@ -1,7 +1,7 @@
 ---
 layout: "../../layouts/PostLayout.astro"
 pubDate: 2023-01-10T00:00:00Z
-title: Getting started with the ChatGPT API.
+title: Getting started with the ChatGPT API
 description: A guide to getting started with the ChatGPT API.
 excerpt: As an AI language model, ChatGPT can generate natural language text in response to prompts given to it.
 image: "https://images.unsplash.com/photo-1676299081847-824916de030a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGNoYXRncHR8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60"

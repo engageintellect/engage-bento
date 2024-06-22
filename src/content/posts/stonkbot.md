@@ -1,7 +1,7 @@
 ---
 layout: "../../layouts/PostLayout.astro"
 pubDate: 2024-4-1T12:00:00Z
-title: StonkBot.
+title: StonkBot
 description: An AI-powered financial data and sentiment engine. Built using SvelteKit, Vercel's AI SDK, OpenAI, TailwindCSS, and DaisyUI.
 excerpt: hello world
 category: projects
