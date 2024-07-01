@@ -14,6 +14,8 @@ tags:
   - Vercel
   - Commerce
   - Web
+  - Git
+  - GitHub
 
 projectURL: "https://www.janakindaesthetics.com"
 repoURL: "https://github.com/engageintellect/kindaesthetics"

@@ -14,12 +14,15 @@ tags:
   - API
   - WebSockets
   - Linux
+  - ArchLinux
   - Ubuntu
   - Nginx
   - Vercel
   - Web
   - IOT
   - Linode
+  - Git
+  - GitHub
 projectURL: "https://friday-dashboard-pi.vercel.app"
 repoURL: "https://github.com/engageintellect/server-dashboard"
 ---

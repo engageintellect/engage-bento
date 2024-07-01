@@ -12,6 +12,9 @@ tags:
   - DaisyUI
   - Vercel
   - Web
+  - Git
+  - GitHub
+  - PostgreSQL
 projectURL: "https://sveltekit-landing-daisy.vercel.app"
 repoURL: "https://github.com/engageintellect/sveltekit-landing-daisy.git"
 ---

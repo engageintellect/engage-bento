@@ -16,6 +16,8 @@ tags:
   - Vercel
   - Media
   - Web
+  - Git
+  - GitHub
 projectURL: "https://engage-svelteflix.vercel.app"
 repoURL: "https://github.com/engageintellect/engage-sveltekit.git"
 ---

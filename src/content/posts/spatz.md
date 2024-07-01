@@ -18,6 +18,8 @@ tags:
   - Ubuntu
   - Vercel
   - Web
+  - Git
+  - GitHub
 projectURL: "https://spatz.engage-dev.com"
 repoURL: "https://github.com/engageintellect/spatz"
 ---

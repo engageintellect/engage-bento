@@ -15,6 +15,8 @@ tags:
   - DaisyUI
   - Vercel
   - Web
+  - Git
+  - GitHub
 
 projectURL: "https://engage-crypto.vercel.app"
 repoURL: "https://github.com/engageintellect/crypto-dashboard"

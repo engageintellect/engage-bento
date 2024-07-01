@@ -12,6 +12,8 @@ tags:
   - Svelte
   - TailwindCSS
   - Web
+  - Git
+  - GitHub
 ---
 
 # Introduction

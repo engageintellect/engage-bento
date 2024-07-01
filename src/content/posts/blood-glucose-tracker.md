@@ -14,6 +14,8 @@ tags:
   - API
   - Vercel
   - IOT
+  - Git
+  - GitHub
 projectURL: "https://engage-glucose.vercel.app"
 repoURL: "https://github.com/engageintellect/engage-glucose"
 ---

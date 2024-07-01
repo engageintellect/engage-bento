@@ -8,6 +8,7 @@ image: "https://media.sitepen.com/blog-images/2022/12/Intro-to-tRPC-1024x538.jpg
 category: now
 tags:
   - Next.js
+  - React
   - tRPC
   - API
   - TypeScript

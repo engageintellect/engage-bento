@@ -12,6 +12,8 @@ tags:
   - Python
   - API
   - Web
+  - Git
+  - GitHub
 ---
 
 # Introduction

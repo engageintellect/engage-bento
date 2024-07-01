@@ -8,6 +8,7 @@ category: projects
 image: /images/rugged-dev.png
 tags:
   - Next.js
+  - React
   - TypeScript
   - TailwindCSS
   - FramerMotion
@@ -18,6 +19,8 @@ tags:
   - Vercel
   - MySQL
   - Zod
+  - Git
+  - GitHub
 
 projectURL: "https://rugged-development.vercel.app"
 repoURL: "https://github.com/engageintellect/rugged-homepage"

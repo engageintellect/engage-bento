@@ -9,9 +9,12 @@ category: now
 tags:
   - TailwindCSS
   - Next.js
+  - React
   - CSS
   - Frontend
   - Web
+  - Git
+  - GitHub
 ---
 
 # Introduction

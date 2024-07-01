@@ -19,6 +19,8 @@ tags:
   - Ubuntu
   - Web
   - Commerce
+  - Git
+  - GitHub
 
 projectURL: "https://shopgme.com"
 repoURL: "https://github.com/engageintellect/greymatter-store"

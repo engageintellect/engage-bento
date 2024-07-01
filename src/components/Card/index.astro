@@ -17,15 +17,18 @@ const { title, body, colSpan, rowSpan, href, colorText, height } = Astro.props;
 ---
 
 <div
-  class={`card group h-max sm:h-auto min-h-40 sm:min-h-auto overflow-hidden transform-y-[-40%] shadow-lg rounded-lg p-6 border border-darkslate-100 hover:border-gray-500 align-start flex-none ${
+  class={`card group h-max sm:h-auto min-h-40 sm:min-h-auto overflow-hidden transform-y-[-40%] shadow-lg rounded-lg p-6 border border-darkslate-100 md:hover:border-gray-500 align-start flex-none ${
     height || "h-full"
-  } justify-start relative transform perspective-1200 w-full transition duration-75 ease-in-out col-span-1 ${
+  } justify-start relative transform perspective-1200 w-full transition duration-200 ease-in-out col-span-1 ${
     colSpan || "md:col-span-2"
   } ${rowSpan || ""}`}
 >
   {
     href ? (
-      <a href={href} class={`h-full w-full ${colorText || " "}`}>
+      <a
+        href={href}
+        class={`h-full w-full transition-colors duration-500 ${colorText || ""}`}
+      >
         <Icon
           name="ri:arrow-right-up-line"
           class="h-6 float-right group-hover:text-neutral-100 group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform ease-in-out duration-100 z-20"

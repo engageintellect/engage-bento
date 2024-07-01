@@ -15,10 +15,13 @@ tags:
   - Nginx
   - Pocketbase
   - Linux
+  - ArchLinux
   - Ubuntu
   - Web
   - IOT
   - Linode
+  - Git
+  - GitHub
 
 projectURL: "https://pi.engage-dev.com"
 repoURL: "https://github.com/engageintellect/pi-dashboard-docker"

@@ -9,11 +9,14 @@ category: projects
 image: "https://engage-blog-fqcuq1awv-engageintellect.vercel.app/_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1642132652859-3ef5a1048fd1%3Fixlib%3Drb-4.0.3%26q%3D80%26fm%3Djpg%26crop%3Dentropy%26cs%3Dtinysrgb&w=3840&q=75"
 tags:
   - Next.js
+  - React
   - Notion
   - API
   - Blog
   - Vercel
   - Web
+  - Git
+  - GitHub
 ---
 
 # Introduction

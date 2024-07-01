@@ -11,6 +11,8 @@ tags:
   - SSG
   - Vercel
   - Web
+  - Git
+  - GitHub
 ---
 
 # Introduction

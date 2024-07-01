@@ -14,6 +14,8 @@ tags:
   - Linux
   - MacOS
   - AI
+  - Git
+  - GitHub
 projectURL: ""
 repoURL: "https://github.com/ollama/ollama"
 ---

@@ -16,6 +16,8 @@ tags:
   - Vercel
   - Raspberry Pi
   - Web
+  - Git
+  - GitHub
 
 projectURL: "https://mine.engage-dev.com"
 repoURL: "https://github.com/engageintellect/unmineable"

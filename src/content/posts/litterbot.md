@@ -17,6 +17,8 @@ tags:
   - API
   - Web
   - IOT
+  - Git
+  - GitHub
 projectURL: "https://litterbot.vercel.app"
 repoURL: "https://github.com/engageintellect/litterbot"
 ---

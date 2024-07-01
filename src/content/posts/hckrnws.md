@@ -14,6 +14,8 @@ tags:
   - API
   - Vercel
   - Web
+  - Git
+  - GitHub
 
 projectURL: "https://hckrnws.vercel.app"
 repoURL: "https://github.com/engageintellect/hckrnws"

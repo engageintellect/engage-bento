@@ -13,6 +13,8 @@ tags:
   - Ubuntu
   - Nginx
   - Web
+  - Git
+  - GitHub
 ---
 
 # Introduction

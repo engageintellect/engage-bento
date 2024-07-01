@@ -21,6 +21,8 @@ tags:
   - Nginx
   - Vercel
   - Web
+  - Git
+  - GitHub
 projectURL: "https://stonkai-chat.vercel.app"
 repoURL: "https://github.com/engageintellect/svelte-ai-injection.git"
 ---

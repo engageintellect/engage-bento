@@ -8,6 +8,7 @@ category: projects
 image: /images/gsa-rag.png
 tags:
   - Next.js
+  - React
   - TypeScript
   - TailwindCSS
   - Python
@@ -21,6 +22,8 @@ tags:
   - Nginx
   - Vercel
   - Web
+  - Git
+  - GitHub
 
 projectURL: "https://resonantlogic-gsa-search.vercel.app"
 repoURL: "https://github.com/engageintellect/gsa-rag-frontend/tree/main"

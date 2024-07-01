@@ -8,10 +8,12 @@ category: projects
 image: "/images/linktreez.png"
 tags:
   - Next.js
-  - React.js
+  - React
   - TailwindCSS
   - Vercel
   - Web
+  - Git
+  - GitHub
 projectURL: "https://linktreez.vercel.app"
 repoURL: "https://github.com/engageintellect/linktreez"
 ---

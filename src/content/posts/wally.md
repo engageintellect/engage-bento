@@ -8,6 +8,7 @@ category: projects
 image: /images/wally3.png
 tags:
   - Next.js
+  - React
   - TypeScript
   - TailwindCSS
   - Python
@@ -22,6 +23,8 @@ tags:
   - Crypto
   - Bitcoin
   - Web
+  - Git
+  - GitHub
 projectURL: "https://wally-btc.vercel.app"
 repoURL: "https://github.com/engageintellect/wally.git"
 ---

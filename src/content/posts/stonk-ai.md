@@ -24,6 +24,8 @@ tags:
   - Vercel
   - Web
   - Finance
+  - Git
+  - GitHub
 projectURL: "https://stonkai.xyz"
 repoURL: "https://github.com/engageintellect/ai-stock-client.git"
 ---

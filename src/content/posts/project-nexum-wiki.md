@@ -20,6 +20,8 @@ tags:
   - API
   - Vercel
   - MySQL
+  - Git
+  - GitHub
 projectURL: "https://project-nexum.vercel.app"
 repoURL: "https://github.com/engageintellect/project-nexum"
 ---
