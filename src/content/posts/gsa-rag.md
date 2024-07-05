@@ -12,7 +12,11 @@ tags:
   - TypeScript
   - TailwindCSS
   - Python
+  - NumPy
+  - Pandas
   - TensorFlow
+  - PyTorch
+  - HuggingFace
   - ClaudeLLM
   - PineconeDB
   - FastAPI

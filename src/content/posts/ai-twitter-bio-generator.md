@@ -18,6 +18,9 @@ tags:
   - API
   - Vercel
   - Web
+  - Git
+  - GitHub
+
 
 projectURL: "https://twitter-bio-tau.vercel.app"
 repoURL: "https://github.com/engageintellect/twitter-bio"
