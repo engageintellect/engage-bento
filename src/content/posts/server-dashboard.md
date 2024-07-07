@@ -9,6 +9,7 @@ image: /images/server-dashboard3.png
 tags:
   - Svelte
   - TypeScript
+  - JavaScript
   - TailwindCSS
   - Python
   - API

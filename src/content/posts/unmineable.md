@@ -7,10 +7,14 @@ category: projects
 image: /images/unmineable.png
 tags:
   - Svelte
+  - Bitcoin
+  - Ethereum
+  - Solana
   - CSS
   - TailwindCSS
   - DaisyUI
   - TypeScript
+  - JavaScript
   - API
   - Crypto
   - Vercel

@@ -9,6 +9,7 @@ image: /images/stonkbot-ui.png
 tags:
   - Svelte
   - TypeScript
+  - JavaScript
   - TailwindCSS
   - Python
   - OpenAI

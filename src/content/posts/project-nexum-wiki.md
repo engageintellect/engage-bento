@@ -9,6 +9,7 @@ image: /images/wiki-platform.png
 tags:
   - Svelte
   - TypeScript
+  - JavaScript
   - Pocketbase
   - AI
   - Sqlite

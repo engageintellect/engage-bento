@@ -10,6 +10,8 @@ tags:
   - Next.js
   - React
   - TypeScript
+  - JavaScript
+  - Node.js
   - TailwindCSS
   - Python
   - NumPy
@@ -28,6 +30,9 @@ tags:
   - Web
   - Git
   - GitHub
+  - AzureDevOps
+  - AmazonAWS
+  - AmazonS3
 
 projectURL: "https://resonantlogic-gsa-search.vercel.app"
 repoURL: "https://github.com/engageintellect/gsa-rag-frontend/tree/main"

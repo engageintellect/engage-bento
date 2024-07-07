@@ -14,7 +14,7 @@ tags:
   - TailwindCSS
   - Pocketbase
   - SQLite
-  - Nginx
+  - Apache
   - Linux
   - Ubuntu
   - Web

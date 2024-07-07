@@ -12,6 +12,7 @@ tags:
   - tRPC
   - API
   - TypeScript
+  - JavaScript
   - Vercel
 ---
 

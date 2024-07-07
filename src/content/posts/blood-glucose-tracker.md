@@ -9,6 +9,7 @@ image: /images/engage-glucose3.png
 tags:
   - Svelte
   - TypeScript
+  - JavaScript
   - TailwindCSS
   - LibreView
   - API

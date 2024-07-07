@@ -10,6 +10,7 @@ tags:
   - Next.js
   - React
   - TypeScript
+  - JavaScript
   - TailwindCSS
   - Python
   - FastAPI

@@ -9,6 +9,7 @@ image: /images/stonkAi5.png
 tags:
   - Svelte
   - TypeScript
+  - JavaScript
   - TailwindCSS
   - Python
   - TensorFlow

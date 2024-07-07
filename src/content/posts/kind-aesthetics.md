@@ -10,12 +10,15 @@ tags:
   - CSS
   - TailwindCSS
   - TypeScript
+  - JavaScript
   - API
   - Vercel
   - Commerce
   - Web
   - Git
   - GitHub
+  - Square
+  - Stripe
 
 projectURL: "https://www.janakindaesthetics.com"
 repoURL: "https://github.com/engageintellect/kindaesthetics"

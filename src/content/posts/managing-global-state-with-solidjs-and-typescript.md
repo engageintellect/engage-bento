@@ -9,6 +9,7 @@ image: /images/solid.png
 tags:
   - SolidJS
   - TypeScript
+  - JavaScript
   - Vercel
   - Web
 ---
