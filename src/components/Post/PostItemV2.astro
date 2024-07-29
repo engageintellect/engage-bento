@@ -1,4 +1,5 @@
 ---
+import { Font } from "@rive-app/canvas/rive_advanced.mjs";
 import { formatDate } from "../../lib/helpers";
 import { formatTag } from "../../lib/helpers";
 
@@ -15,7 +16,7 @@ interface Props {
 const { title, description, date, url, category, tags, image } = Astro.props;
 ---
 
-<li class="w-full post-item">
+<li class="w-full">
   <div
     class="text-sm md:text-base decoration-none flex flex-col justify-between text-neutral-100 ease-in-out transition-colors border-gray-700 hover:border-gray-500 border my-2 rounded-lg"
   >
@@ -27,7 +28,6 @@ const { title, description, date, url, category, tags, image } = Astro.props;
             src={image}
             alt={title}
             class="object-cover w-full h-full rounded border border-gray-500"
-            loading="lazy"
           />
           <div
             class="absolute top-0 left-0 bg-gradient-to-l from-darkslate-400 to-none h-full w-full"
