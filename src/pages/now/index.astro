@@ -22,7 +22,7 @@ const posts = (await getCollection("posts"))?.sort(
     posts.forEach((post) => {
       gsap.fromTo(
         post,
-        { opacity: 0, y: 20 },
+        { opacity: 0, y: 10 },
         {
           opacity: 1,
           y: 0,
