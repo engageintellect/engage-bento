@@ -18,7 +18,7 @@ tags:
   - Pandas
   - TensorFlow
   - PyTorch
-  - HuggingFace
+  - Hugging Face
   - ClaudeLLM
   - PineconeDB
   - FastAPI

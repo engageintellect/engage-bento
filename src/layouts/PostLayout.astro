@@ -31,13 +31,11 @@ const { frontmatter } = Astro.props;
   <Navbar />
 
   <main class="mx-auto max-w-2xl w-full p-2 md:py-5 text-neutral-100">
-    <!-- <hr class="border-[.5px] border-gray-100/10 mb-5" /> -->
-
     <div
       class="w-fit px-4 py-1 rounded rounded-b-none border-b-none border border-gray-500"
     >
       <a
-        href=`/${frontmatter.category}`
+        href={`/${frontmatter.category}`}
         class="text-neutral-100 capitalize text-sm decoration-none"
       >
         {frontmatter.category}
@@ -49,10 +47,10 @@ const { frontmatter } = Astro.props;
         <p>{formatDate(new Date(frontmatter.pubDate))}</p>
       </div>
 
-      <div class="text-5xl f-bold mt-2">
+      <div class="text-5xl f-bold mt-2 opacity-0" id="post-title">
         {frontmatter.title}
       </div>
-      <div class="text-neutral-100/70">
+      <div class="text-neutral-100/70 opacity-0" id="post-description">
         {frontmatter.description}
       </div>
 
@@ -83,7 +81,8 @@ const { frontmatter } = Astro.props;
         <img
           src={frontmatter.image}
           alt=""
-          class="border border-gray-500/50 w-full object-cover h-full"
+          class="border border-gray-500/50 w-full object-cover h-full opacity-0"
+          id="post-image"
         />
       </a>
     </div>
@@ -122,7 +121,8 @@ const { frontmatter } = Astro.props;
     </div>
 
     <article
-      class="prose prose-p:text-purple-500 prose-slate prose-invert mb-10"
+      class="prose prose-p:text-purple-500 prose-slate prose-invert mb-10 opacity-0"
+      id="post-content"
     >
       <slot />
     </article>
@@ -134,3 +134,14 @@ const { frontmatter } = Astro.props;
     display: none;
   }
 </style>
+
+<script>
+  import { gsap } from "gsap";
+
+  document.addEventListener("DOMContentLoaded", () => {
+    gsap.to("#post-title", { opacity: 1, duration: 0.5 });
+    gsap.to("#post-image", { opacity: 1, duration: 1 });
+    gsap.to("#post-description", { opacity: 1, duration: 1.5 });
+    gsap.to("#post-content", { opacity: 1, delay: 0.25, duration: 0.5 });
+  });
+</script>

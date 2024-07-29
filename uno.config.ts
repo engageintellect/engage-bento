@@ -6,7 +6,7 @@ export default defineConfig({
   },
   theme: {
     boxShadow: {
-      custom: `2px 2px 0px`,
+      custom: `1px 1px 0px`,
       "custom-hover": `1px 1px 0`,
     },
     gridTemplateRow: {
