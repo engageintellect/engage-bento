@@ -27,9 +27,10 @@ const posts = (await getCollection("posts"))?.sort(
           opacity: 1,
           y: 0,
           duration: 0.5,
+          delay: 0.0,
           scrollTrigger: {
             trigger: post,
-            start: "top 95%",
+            start: "top 90%",
             toggleActions: "play none none none",
           },
         }
@@ -61,7 +62,7 @@ const posts = (await getCollection("posts"))?.sort(
           posts
             ?.filter((post) => post.data.category === "now")
             .map((post) => (
-              <div class="post-item">
+              <div class="post-item opacity-0">
                 <PostItem
                   title={post.data.title || "No title"}
                   description={post.data.description || "No description"}
@@ -78,3 +79,12 @@ const posts = (await getCollection("posts"))?.sort(
     </div>
   </div>
 </PostFeedLayout>
+
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+    const postItems = document.querySelectorAll(".post-item");
+    postItems.forEach((postItem) => {
+      postItem.classList.remove("opacity-0");
+    });
+  });
+</script>

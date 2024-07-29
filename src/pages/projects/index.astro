@@ -27,9 +27,10 @@ const posts = (await getCollection("posts"))?.sort(
           opacity: 1,
           y: 0,
           duration: 0.5,
+          delay: 0.0,
           scrollTrigger: {
             trigger: post,
-            start: "top 95%",
+            start: "top 90%",
             toggleActions: "play none none none",
           },
         }
@@ -51,13 +52,13 @@ const posts = (await getCollection("posts"))?.sort(
     </h1>
 
     <div class="f-light mb-4 text-neutral-100/50">
-      <span class="f-bold">
-        {
+      <span class="f-bold"
+        >{
           JSON.stringify(
             posts?.filter((post) => post.data.category === "projects").length
           )
-        }
-      </span>
+        }</span
+      >
       Personal projects and experiments
     </div>
 
@@ -67,7 +68,7 @@ const posts = (await getCollection("posts"))?.sort(
           posts
             ?.filter((post) => post.data.category === "projects")
             .map((post) => (
-              <div class="post-item">
+              <div class="post-item opacity-0">
                 <PostItem
                   title={post.data.title || "No title"}
                   description={post.data.description || "No description"}
@@ -84,3 +85,12 @@ const posts = (await getCollection("posts"))?.sort(
     </div>
   </div>
 </PostFeedLayout>
+
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+    const postItems = document.querySelectorAll(".post-item");
+    postItems.forEach((postItem) => {
+      postItem.classList.remove("opacity-0");
+    });
+  });
+</script>

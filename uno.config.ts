@@ -9,13 +9,10 @@ export default defineConfig({
       custom: `2px 2px 0px`,
       "custom-hover": `1px 1px 0`,
     },
-    fontFamily: {
-      sans: ["Ubuntu"],
-    },
-    gridTemplateRows: {
+    gridTemplateRow: {
       "auto-250": "repeat(auto-fill, 250px)",
     },
-    gridTemplateColumns: {
+    gridTemplateColumn: {
       "4-minmax": "repeat(4, minmax(150px, 1fr))",
     },
     colors: {
@@ -58,13 +55,6 @@ export default defineConfig({
   },
   presets: [
     presetUno(),
-    presetWebFonts({
-      provider: "fontshare",
-      fonts: {
-        sans: ["Ubuntu"],
-        serif: "Zodiak",
-      },
-    }),
   ],
   rules: [
     ['hide-scrollbar', {
