@@ -13,12 +13,31 @@ const posts = (await getCollection("posts"))?.sort(
 ---
 
 <script>
-  import { timeline, type TimelineDefinition } from "motion";
-  import { loaderAnimation } from "../../lib/constants";
+  import { gsap } from "gsap";
+  import { ScrollTrigger } from "gsap/ScrollTrigger";
+  gsap.registerPlugin(ScrollTrigger);
 
-  const sequence = [loaderAnimation];
+  const animatePosts = () => {
+    const posts = document.querySelectorAll(".post-item");
+    posts.forEach((post) => {
+      gsap.fromTo(
+        post,
+        { opacity: 0, y: 20 },
+        {
+          opacity: 1,
+          y: 0,
+          duration: 0.5,
+          scrollTrigger: {
+            trigger: post,
+            start: "top 90%",
+            toggleActions: "play none none none",
+          },
+        }
+      );
+    });
+  };
 
-  timeline(sequence as TimelineDefinition);
+  document.addEventListener("DOMContentLoaded", animatePosts);
 </script>
 
 <PostFeedLayout title="engage-bento: projects" description="">
@@ -48,15 +67,18 @@ const posts = (await getCollection("posts"))?.sort(
           posts
             ?.filter((post) => post.data.category === "projects")
             .map((post) => (
-              <PostItem
-                title={post.data.title || "No title"}
-                description={post.data.description || "No description"}
-                date={post.data.pubDate || new Date()}
-                url={post.slug}
-                category={post.data.category || "No category"}
-                tags={post.data.tags || []}
-                image={post.data.image || ""}
-              />
+              <div class="post-item">
+                <PostItem
+                  client:visible
+                  title={post.data.title || "No title"}
+                  description={post.data.description || "No description"}
+                  date={post.data.pubDate || new Date()}
+                  url={post.slug}
+                  category={post.data.category || "No category"}
+                  tags={post.data.tags || []}
+                  image={post.data.image || ""}
+                />
+              </div>
             ))
         }
       </ul>
