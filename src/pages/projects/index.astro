@@ -62,7 +62,7 @@ const posts = (await getCollection("posts"))?.sort(
     </div>
 
     <div class="w-full">
-      <ul class="">
+      <ul>
         {
           posts
             ?.filter((post) => post.data.category === "projects")

@@ -5,6 +5,7 @@
 
 // const { rounded } = Astro.props;
 import { Icon } from "astro-icon/components";
+import ScrollIndicator from "./ScrollIndicator.astro";
 ---
 
 <script>
@@ -23,7 +24,7 @@ import { Icon } from "astro-icon/components";
 
 <div
   transition:animate="none"
-  class="sticky top-0 w-full max-w-2xl mx-auto px-2 bg-darkslate-400 z-50 border-b border-b-[0.1px] border-gray-500"
+  class="sticky top-0 w-full max-w-2xl mx-auto px-2 bg-darkslate-400 z-50 border-b border-b-[0.1px] border-gray-500 relative"
 >
   <div class="mx-auto">
     <div class="flex justify-between items-center">
@@ -74,5 +75,9 @@ import { Icon } from "astro-icon/components";
         </a>
       </div>
     </div>
+  </div>
+
+  <div class="">
+    <ScrollIndicator />
   </div>
 </div>
