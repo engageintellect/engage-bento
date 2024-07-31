@@ -11,6 +11,7 @@ tags:
   - TypeScript
   - JavaScript
   - TailwindCSS
+  - Docker
   - Python
   - API
   - WebSockets

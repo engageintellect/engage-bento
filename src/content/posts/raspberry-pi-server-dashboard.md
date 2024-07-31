@@ -23,6 +23,6 @@ tags:
   - Git
   - GitHub
 
-projectURL: "https://pi.engage-dev.com"
+projectURL: "https://pi.engage-intellect.com"
 repoURL: "https://github.com/engageintellect/pi-dashboard-docker"
 ---
