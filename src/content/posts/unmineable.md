@@ -7,6 +7,8 @@ category: projects
 image: /images/unmineable.png
 tags:
   - Svelte
+  - Sveltekit
+  - spatz
   - Bitcoin
   - Ethereum
   - Solana

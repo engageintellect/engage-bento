@@ -28,7 +28,6 @@ export async function getStaticPaths(): Promise<TagRoute[]> {
   const posts = await getCollection("posts");
   const tagSet = new Set<string>();
 
-  // Extract and process tags
   posts.forEach((post) => {
     if (Array.isArray(post.data.tags)) {
       post.data.tags.forEach((tag: string) => {
@@ -39,7 +38,6 @@ export async function getStaticPaths(): Promise<TagRoute[]> {
     }
   });
 
-  // Convert tagSet to an array of tag objects
   const tagRoutes: TagRoute[] = Array.from(tagSet).map((tag) => ({
     params: { tag },
   }));
@@ -47,7 +45,7 @@ export async function getStaticPaths(): Promise<TagRoute[]> {
   return tagRoutes;
 }
 
-const tagParam: string = Astro.params.tag || ""; // Assuming tagParam is a string
+const tagParam: string = Astro.params.tag || "";
 const allPosts: CollectionEntry<"posts">[] = await getCollection("posts");
 
 const pageObjects: Post[] = [];
@@ -55,11 +53,9 @@ const pageObjects: Post[] = [];
 for (const post of allPosts) {
   const tags = post.data.tags;
 
-  // Check if tags is an array and process each tag
   if (Array.isArray(tags)) {
     const processedTags = tags.map((tag) => formatTag(tag));
 
-    // Check if any of the processed tags match tagParam
     if (processedTags.includes(formatTag(tagParam))) {
       const postTitle = String(post.data.title);
       const postSlug = formatTag(postTitle);
@@ -68,7 +64,6 @@ for (const post of allPosts) {
       const postPubDate = String(post.data.pubDate);
       const postImage = String(post.data.image);
 
-      // Create a newPost object conforming to the Post type
       const newPost: Post = {
         slug: postSlug,
         data: {
@@ -86,29 +81,54 @@ for (const post of allPosts) {
   }
 }
 
-// After populating the pageObjects array, sort it in reverse chronological order
 pageObjects.sort((a, b) => {
-  // Assuming pubDate is in a format that can be directly compared, e.g., 'YYYY-MM-DD'
-  // For other formats, you might need to parse them into Date objects first
   return (
     new Date(b.data.pubDate).getTime() - new Date(a.data.pubDate).getTime()
   );
 });
 
 let search: string = "";
-let filteredPosts: Post[] = pageObjects; // This now starts off in reverse chronological order
+let filteredPosts: Post[] = pageObjects;
 
 function handleSearch(event: Event) {
   const inputElement = event.target as HTMLInputElement;
   search = inputElement.value.toLowerCase();
 
-  // Filter posts based on the search term, already in reverse chronological order
   filteredPosts = pageObjects.filter((post) =>
     post.data.title.toLowerCase().includes(search)
   );
 }
 const Content = filteredPosts.map((post) => post);
 ---
+
+<script>
+  import { gsap } from "gsap";
+  import { ScrollTrigger } from "gsap/ScrollTrigger";
+  gsap.registerPlugin(ScrollTrigger);
+
+  const animatePosts = () => {
+    const posts = document.querySelectorAll(".post-item");
+    posts.forEach((post) => {
+      gsap.fromTo(
+        post,
+        { opacity: 0, y: 20 },
+        {
+          opacity: 1,
+          y: 0,
+          duration: 0.5,
+          delay: 0.1,
+          scrollTrigger: {
+            trigger: post,
+            start: "top 90%",
+            toggleActions: "play none none none",
+          },
+        }
+      );
+    });
+  };
+
+  document.addEventListener("DOMContentLoaded", animatePosts);
+</script>
 
 <div>
   <TagsLayout title="engage-bento: tags" description="" />
@@ -129,7 +149,7 @@ const Content = filteredPosts.map((post) => post);
       <ul class="">
         {
           Content.map((post) => (
-            <>
+            <div class="post-item opacity-0">
               <PostItem
                 title={post.data.title || "No title"}
                 description={post.data.description || "No description"}
@@ -141,7 +161,7 @@ const Content = filteredPosts.map((post) => post);
                 tags={post.data.tags || []}
                 image={post.data.image || ""}
               />
-            </>
+            </div>
           ))
         }
       </ul>

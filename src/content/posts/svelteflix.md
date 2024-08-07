@@ -8,6 +8,7 @@ category: projects
 image: /images/svelteflix.png
 tags:
   - Svelte
+  - Sveltekit
   - TailwindCSS
   - API
   - Supabase
@@ -29,6 +30,7 @@ Svelteflix is a Netflix UI that allows the user to discover movies, watch trailo
 ## Technologies Used
 
 - Svelte
+- Sveltekit
 - TailwindCSS
 - API
 - Supabase

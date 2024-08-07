@@ -8,6 +8,7 @@ image: "https://miro.medium.com/max/850/1*liFDPu7pGD1ZtdUkouco0A.png"
 category: now
 tags:
   - Svelte
+  - Sveltekit
   - Pocketbase
   - Database
   - Ubuntu

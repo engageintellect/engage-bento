@@ -8,6 +8,7 @@ category: projects
 image: /images/stonkAi5.png
 tags:
   - Svelte
+  - Sveltekit
   - TypeScript
   - JavaScript
   - TailwindCSS

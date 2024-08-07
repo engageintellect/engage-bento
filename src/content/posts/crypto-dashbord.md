@@ -8,6 +8,7 @@ category: projects
 image: "https://akm-img-a-in.tosshub.com/businesstoday/images/story/202309/pandasecurity-crypto-gaming-sixteen_nine.jpg?size=948:533"
 tags:
   - Svelte
+  - Sveltekit
   - Crypto
   - Bitcoin
   - TailwindCSS

@@ -8,6 +8,7 @@ category: projects
 image: "https://kit.svelte.dev/images/twitter-thumbnail.jpg"
 tags:
   - Svelte
+  - Sveltekit
   - TailwindCSS
   - DaisyUI
   - Vercel

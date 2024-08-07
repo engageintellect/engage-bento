@@ -8,6 +8,7 @@ category: projects
 image: /images/litterbot.png
 tags:
   - Svelte
+  - Sveltekit
   - TailwindCSS
   - Python
   - Vercel AI SDK

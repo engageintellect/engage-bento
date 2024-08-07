@@ -8,6 +8,7 @@ category: projects
 image: /images/pi-dashboard.png
 tags:
   - Svelte
+  - Sveltekit
   - TailwindCSS
   - Python
   - FastAPI

@@ -8,6 +8,8 @@ category: projects
 image: /images/hckrnws2.png
 tags:
   - Svelte
+  - Sveltekit
+  - spatz
   - TailwindCSS
   - DaisyUI
   - Hacker News

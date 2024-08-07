@@ -8,6 +8,7 @@ category: projects
 image: /images/stonkbot-ui.png
 tags:
   - Svelte
+  - Sveltekit
   - TypeScript
   - JavaScript
   - TailwindCSS

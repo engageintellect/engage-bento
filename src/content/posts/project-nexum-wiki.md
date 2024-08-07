@@ -8,6 +8,7 @@ category: projects
 image: /images/wiki-platform.png
 tags:
   - Svelte
+  - Sveltekit
   - TypeScript
   - JavaScript
   - Pocketbase

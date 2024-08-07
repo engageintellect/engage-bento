@@ -8,6 +8,7 @@ category: projects
 image: /images/server-dashboard3.png
 tags:
   - Svelte
+  - Sveltekit
   - TypeScript
   - JavaScript
   - TailwindCSS

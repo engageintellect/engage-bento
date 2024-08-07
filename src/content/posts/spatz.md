@@ -8,6 +8,8 @@ category: projects
 image: /images/spatz.png
 tags:
   - Svelte
+  - Sveltekit
+  - spatz
   - Pocketbase
   - AI
   - TailwindCSS

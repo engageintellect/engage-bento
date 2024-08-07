@@ -8,6 +8,7 @@ category: projects
 image: /images/engage-glucose3.png
 tags:
   - Svelte
+  - Sveltekit
   - TypeScript
   - JavaScript
   - TailwindCSS

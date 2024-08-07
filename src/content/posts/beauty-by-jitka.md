@@ -7,6 +7,8 @@ category: projects
 image: /images/beauty-by-jitka.png
 tags:
   - Svelte
+  - Sveltekit
+  - spatz
   - CSS
   - TailwindCSS
   - shadcn-svelte

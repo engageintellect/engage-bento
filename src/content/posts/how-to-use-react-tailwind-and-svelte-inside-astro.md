@@ -10,6 +10,7 @@ tags:
   - Astro
   - React
   - Svelte
+  - Sveltekit
   - TailwindCSS
   - Web
   - Git
