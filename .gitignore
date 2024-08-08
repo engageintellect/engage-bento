@@ -22,4 +22,4 @@ pnpm-debug.log*
 # macOS-specific files
 .DS_Store
 
-resume.pdf
+/public/resume.pdf
