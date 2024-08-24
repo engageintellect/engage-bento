@@ -18,7 +18,7 @@ const { title, description, date, url, category, tags, image } = Astro.props;
 
 <li class="w-full post-item">
   <div
-    class="text-sm overflow-hidden md:text-base decoration-none flex flex-col justify-between text-neutral-100 ease-in-out transition-colors border-gray-700 hover:border-gray-500 border my-2 rounded-lg"
+    class="text-sm overflow-hidden md:text-base decoration-none flex flex-col justify-between text-neutral-100 ease-in-out transition-colors border-gray-700 hover:border-gray-500 border-[1px] my-2 rounded-lg"
   >
     <div class="flex w-full h-full group">
       <div class="w-1/3 shrink-0 rounded transition-all duration-300">
@@ -27,7 +27,7 @@ const { title, description, date, url, category, tags, image } = Astro.props;
           <img
             src={image}
             alt={title}
-            class="object-cover w-full h-full rounded border rounded-l-lg border-gray-500"
+            class="object-cover w-full h-full rounded rounded-l-lg border-gray-500"
             decoding="async"
             loading="eager"
           />
