@@ -19,7 +19,7 @@ tags:
   - Docker
   - TensorFlow
   - PyTorch
-  - Hugging Face
+  - HuggingFace
   - ClaudeLLM
   - PineconeDB
   - FastAPI

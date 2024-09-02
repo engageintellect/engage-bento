@@ -11,7 +11,7 @@ tags:
   - AI
   - Machine Learning
   - PyTorch
-  - Hugging Face
+  - HuggingFace
 ---
 
 # Using Hugging Face Transformers for Various AI/ML Tasks.
